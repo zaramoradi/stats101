@@ -1,0 +1,2 @@
+Some R tutorial to demonstrate central limit theorem through simulation
+Some R tutorial to demonstrate that the mean minimizes squared distance

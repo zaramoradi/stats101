@@ -1,0 +1,5 @@
+#histogram maker using simulated data
+RandomNumbers<-rbind(data.frame(rnorm(100)),6)
+names(RandomNumbers)<-'MyNumbers'
+par(mfrow = c(1, 1))
+hist(RandomNumbers$MyNumbers)

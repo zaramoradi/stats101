@@ -1,0 +1,6 @@
+#author joe
+#code is just rock paper scissors. See if class tries to outsmart the random draw. 
+
+#Rock paper scissors game
+PosssibleHands=c('rock','paper','scissors')
+sample(c('rock','paper','scissors'))[1]

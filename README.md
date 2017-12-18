@@ -6,6 +6,7 @@ R Exercises for second year undergraduate statistics courses.
 # Topic Areas
 
 Concept 1: Basic Concepts: Notation & Summation
+
 Concept 2: Frequency Distributions
 Concept 3: Central Tendency
 Concept 4: Linear Transformations

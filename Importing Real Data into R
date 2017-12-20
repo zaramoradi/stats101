@@ -1,0 +1,8 @@
+# Goal: One line bits of code that load useful data for teaching stats.
+
+# Peruse https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/00Index.html and just attach any dataset
+# eg for the dataset on cars
+X <- mtcars
+
+# you can also read data directly from any url which leads to a csv. For the StarCraft dataset use
+X <- read.csv(url("http://summit.sfu.ca/system/files/iritems1/13328/StarCraft2ReplayAnalysis-1.csv"))

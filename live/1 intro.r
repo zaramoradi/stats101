@@ -26,3 +26,39 @@ colours = c("red","yellow","blue")
 # Numerics
 k = 1
 k
+class(k)    # prints the class name of k, "numeric"
+is.integer(k)  # is k an integer?
+
+y = as.integer(1) 
+y           # prints the value of y
+class(y)    # prints the class name of y, "integer"
+
+as.integer("3.45")   # will convert it to an integer, 3
+
+as.integer("red")   # will produce an error
+
+## Basic vector operations
+employmentStatus = c(TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE)
+employmentStatus
+
+# Tells you the number of elements in the list
+length(employmentStatus)
+
+# Adds up all the values in the list
+sum(employmentStatus)
+
+# you can do arithmetics with vector operations:
+sum(employmentStatus)/length(employmentStatus)
+
+# Pick out the third element from the list
+employmentStatus[3]
+
+# Pick out the third, fourth and fifth elements from the list
+employmentStatus[3:5]
+
+## Building a data file
+subjectID = c(101,102,103,104,105)
+demographics = c("Surrey","Surrey","Delta","Vancouver","Langley")
+employmentStatus = c(TRUE,TRUE,FALSE,FALSE,TRUE)
+data = data.frame(subjectID, demographics, employmentStatus)
+data

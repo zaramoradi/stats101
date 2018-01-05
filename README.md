@@ -5,7 +5,7 @@ R Exercises for second year undergraduate statistics courses.
 
 # Topic Areas
 
-[Concept 1: Basic Concepts: Notation & Summation](live/1 intro.r)
+[Concept 1: Basic Concepts: Notation & Summation](live/1-intro.r)
 
 Concept 2: Frequency Distributions
 

@@ -1,4 +1,4 @@
-# stats101
+# Applied Psychology I.
 Second year undergraduate statistics
 
 R Exercises for second year undergraduate statistics courses. 

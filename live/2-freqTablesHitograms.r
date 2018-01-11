@@ -8,11 +8,11 @@ rle(siblings)    # execute this just to see the output of the rle functions
 sort(siblings)   # execute this just to see the output of the sort function
 
 # Let's take the frequency values and assign them to a variable
-siblings_info = rle(sort(x))
+siblings_info = rle(sort(siblings))
 
 # now let's put the rle computations into a data frame
 # values, frequencies come from the rle variable, and proportions are calculated on the fly
-siblings_data = data.frame(values=x_info$values, n=x_info$lengths)
+siblings_data = data.frame(values=siblings_info$values, n=siblings_info$lengths)
 
 # view the data table by typing in the new variable name and pressing enter
 siblings_data 

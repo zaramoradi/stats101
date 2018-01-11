@@ -25,3 +25,9 @@ length(siblings)
 # 2. Add up the frequencies in the "n" column of the frequency table
 # Use the dollar sign ($) to refer to column names within a data frame
 sum(siblings_info$n)
+
+# Generate a Histogram of the datat
+# Use the breaks argument to set the bin/grouping size)
+# Try different bin sizes 
+# Use the main argument to add a title
+hist(siblings, breaks=5, main="This is my nice histogram title")

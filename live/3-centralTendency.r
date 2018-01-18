@@ -5,6 +5,9 @@ age=c(17,27,19,23,25,20,54,21,22,22,20,19,19,28,20,19,20,19,21,59,19,19,20,21,29
 
 # Let's create a frequency table
 # This is an intermediary step that reorganizes the original data (sorts it, and counts how many times each value occurs
+# For this data, it is sufficient to refer to the variable "age" because it is just a vector (e.g., a series of numbers). 
+# If age was a data frame, we would have to specify a column name using the "$" sign. For data frames the sequence is as follows:
+# variableName$columnName. hypothetical Eg. rle(sort(age$myColumnName)
 age_info = rle(sort(age))
 
 # This is our frequency table

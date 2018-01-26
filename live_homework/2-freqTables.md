@@ -1,0 +1,11 @@
+In this assignment you will use 1100 Exam 2 and Exam 3 across 2 classes of students from last summer. 
+(**Data is found at**: http://llorban.net/psyc2300/1100_exam_grades.csv). ;
+
+* 1. Generate a frequency table variable and a histogram of both Exam 2 and Exam 3 scores. 
+* 2. Display the sample size
+* 3. Display the sum of all scores
+* 4. Generate a histogram of each exam scores. Decide on bin size, and add a remark below the histogram to explain why you chose the particular bin size (use # to add remarks)
+* 5. Find the mean score for each exam by dividing the sum of scores with the sample size. Don't use the built-in mean function. 
+
+Here is a command you will need, but have not covered in class. Read a csv file from the web: 
+**myData = read.csv(url("http://llorban.net/psyc2300/1100_exam_grades.csv")**

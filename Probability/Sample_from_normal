@@ -1,0 +1,14 @@
+# (draft!) Joe R excercise on topic of central limit theorem. 
+# Here is some code that lets you try bringing smaller or larger samples from a normal distribution.
+
+#histogram of means from 100 samplings of this normal distribution
+N=100
+Number_of_samples=100
+SampledMeans=double()
+for (i in 1:Number_of_samples){
+  SampledMeans[i]=mean(rnorm(N,20,7))}
+hist(SampledMeans, main=paste('histogram of ', Number_of_samples, ' means (Standard Deviation of means=', round(sd(SampledMeans),2), ')'))
+
+#excercise: try changing N to a larger number in the above code and see what happens.
+#Now try changing the number of samples (the number of times we collect samples of size N). Describe the difference between increasing N and increasing the number of samples.
+#How do these results relate to the central limit theorem?

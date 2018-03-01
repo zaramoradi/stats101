@@ -49,6 +49,7 @@ sem = function(local_variable) {
 
 # Use the "apply" function to call up our self-made SEM function
 apply(x,2,sem)
+# Show that this function works for any data set: 
 apply(y,2,sem)
 
 ##### PLOTTING SEM ON ERROR BARS

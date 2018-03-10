@@ -11,7 +11,8 @@ pnorm(-1.50,lower.tail=FALSE)
 ## 2. 
 A vertical line is drawn through a normal distribution at z = –1.00. How much of the distribution is located between the line and the mean?
 ```r
-pnorm(-1)-pnorm(0)
+pnorm(-1,lower.tail=false)-pnorm(0)
+# express proportion as a positive value
 ```
 
 ## 3.

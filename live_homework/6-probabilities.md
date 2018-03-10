@@ -19,9 +19,9 @@ For a normal distribution with a mean of μ = 500 and σ = 100, what is the prob
 ```r
 pnorm(400,mean=500,sd=100)
 ```
-or
+or expressed as a percentage
 ```r
-pnorm(400,mean=500,sd=100)
+pnorm(400,mean=500,sd=100)*100
 ```
 
 ## 4. 

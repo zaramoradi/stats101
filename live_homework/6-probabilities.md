@@ -3,10 +3,8 @@
 ## 1. 
 What proportion of a normal distribution is located in the tail beyond a z-score of z = –1.50?
 ```r
-1-pnorm(-1.50)
+pnorm(-1.50)
 ```
-or 
-pnorm(-1.50,lower.tail=FALSE)
 
 ## 2. 
 A vertical line is drawn through a normal distribution at z = –1.00. How much of the distribution is located between the line and the mean?
